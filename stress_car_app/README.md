@@ -12,11 +12,11 @@ BLE Sensor → Guardrails → AI Layer → Agent → Backend (WebSocket) → Fro
 ```
 
 # How to run the app locally 
-Pre Requisite - Python3 must be installed.
+Pre Requisite - Python3 must be installed. Navigate to "stress_car_app/backend" directory. Install required dependencies by running  "pip install -r requirements.txt".
 
-1. Navigate to stress_car_app\backend directory
-2. Execute command "python3 -m uvicorn server:app"
-3. Access the localhost url http://127.0.0.1:8000
+1. Navigate to "stress_car_app\backend" directory.
+2. Execute command "python3 -m uvicorn server:app".
+3. Access the localhost url "http://127.0.0.1:8000".
 
 ## Layers
 
