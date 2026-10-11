@@ -1,3 +1,5 @@
+
+
 # Stress-Aware Driving System — Prototype
 
 A three-layer prototype: a BLE heart rate sensor feeds live data through
@@ -8,6 +10,13 @@ BLE Sensor → Guardrails → AI Layer → Agent → Backend (WebSocket) → Fro
                               ↓
                         Observability
 ```
+
+# How to run the app locally 
+Pre Requisite - Python3 must be installed.
+
+1. Navigate to stress_car_app\backend directory
+2. Execute command "python3 -m uvicorn server:app"
+3. Access the localhost url http://127.0.0.1:8000
 
 ## Layers
 
